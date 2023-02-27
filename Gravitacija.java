@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class Gravitacija {
 
     public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+        double v = sc.nextDouble(); // visina
+
+        double a = gravitacija(v);
+        izpis(v, a);
 
         System.out.println("OIS je zakon!");
 
