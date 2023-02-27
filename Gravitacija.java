@@ -7,4 +7,8 @@ public class Gravitacija {
         System.out.println("OIS je zakon!");
 
     }
+    public static void izpis(double v, double a) {
+     System.out.println("Nadmorska višina: " + v);
+     System.out.println("Gravitacijski pospešek: " + a);
+ }
 }
